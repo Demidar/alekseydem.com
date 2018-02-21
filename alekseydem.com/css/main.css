@@ -1,0 +1,82 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+.site-index {
+    background-color: #eee;
+    border-top: 1px solid black;
+}
+
+.index-header {
+    color: white;
+    background: url('/img/header.jpg');
+    background-color: #888;
+    text-shadow: black 0 0 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.index-header-text {
+    text-align: center;
+}
+
+.index-header .row div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-resume, .btn-resume:active, .btn-portfolio, .btn-portfolio:active {
+    box-shadow: black 3px 3px 20px;
+}
+
+.scroll-down {
+    position: relative;
+    cursor: pointer;
+    height: 130px;
+    text-align: center;
+    text-shadow: white 0 0 20px;
+}
+
+.scroll-down:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.label-border {
+    position: relative;
+    border-top: 1px solid #2e6da4;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.label-img {
+    position: absolute;
+    min-width: 150px;
+    min-height: 500px;
+    background: no-repeat;
+    background-size: contain;
+    opacity: 0.20;
+    top: 0;
+    right: 0;
+}
+
+.myskills li {
+    
+}
+
+.index-book {
+    
+}
+
+.index-book img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.index-book p {
+    font-size: 20px;
+    text-align: center;
+}
